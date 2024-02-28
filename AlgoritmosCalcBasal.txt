@@ -1,0 +1,15 @@
+ingresar peso, decision.
+
+evaluar si peso <30 :
+          si peso <= 10 ; HidratacionDiaiaria = peso * 100;
+          si peso >10 peso <= 20; HidratacionDiaria= ( peso - 10 ) 50 + 1000;
+          si peso > 20; HidratacionDiaria = (peso - 20)20 + 1500;
+
+evaluar si peso>30 :
+          superficie_corporal = ( (peso * 4) + 7) / (peso + 90)
+          si decision = 1; HidratacionDiaria = superficieCorporal * 1500;
+          si decision = 2; HidratacionDiaria = superficieCorporal * 2000;
+
+ecuacion cc/hs ; mantenimiento = volumen_diario/24;
+ecuacion m+m/2 ; mantenimientoMedio = mantenimiento * 1.5;
+imprimir valores de HidratacionDiaria, mantenimiento, mantenimientoMedio.

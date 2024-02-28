@@ -5,7 +5,7 @@ h1 {
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
-    background: #f6f5f7;
+    background: #c0c0c0;
     font-family: 'Montserrat', sans-serif;
     color: #3E363F;
 }
@@ -33,10 +33,12 @@ body {
 }
 
 #detalle {
-    background: #FF416C;
+    background: crimson;
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
+    text-align:center;
+    
     float: left;
     color: #f6f5f7;
 }
